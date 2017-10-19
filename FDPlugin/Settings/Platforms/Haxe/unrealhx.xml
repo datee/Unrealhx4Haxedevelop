@@ -1,0 +1,11 @@
+<platform name="UnrealHx" targets="Cppia,DevEditor,Rebuild">
+  <versions>
+	<version value="1.0">
+		<command name="display" value="utils\Build.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="build" value="utils\Build.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="Rebuild" value="utils\Build.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="run" value="..\$(ProjectName).uproject" /> 
+		<command name="clean" value="utils\Build.bat Clean" /> 
+	</version>
+  </versions>
+</platform>
