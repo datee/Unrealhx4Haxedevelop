@@ -24,13 +24,14 @@ And if you are unfamiliar with Haxe : It is an open source toolkit based on a mo
 ## What is required?
 Unrealhx4Flashdevelop is a complete and tested setup for Unreal.hx and Haxe with Unreal Engine 4. It **should** work straight **out of the box.**
 
-> **What you need:**
+**What you need:**
 - [Flashdevelop 5.xx](http://www.flashdevelop.org/) or [Haxedevelop 5.xx](http://haxedevelop.org/)
 - Unreal Engine 4.16 / 4.17 - *(Only 4.17 template exits for now)*
 - Visual Studio 2015 - Only the c++ compiler *(2017 might work, but this is not tested)*
-- [Haxe 3.4.3 / 3.4.4](https://haxe.org/download/)
-- Hxcpp 3.4.188 - ( haxelib install hxcpp ) *( Other versions might work, but this is not tested )*
-- Hxcs 3.4.0 - ( haxelib install hxcs )*( Other versions might work, but this is not tested )*
+- Haxe 3.4.3 / 3.4.4 - [Download here](https://haxe.org/download/)
+- Hxcpp 3.4.188 - *( haxelib install hxcpp )* *( Other versions might work, but this is not tested )*
+- Hxcs 3.4.0 - *( haxelib install hxcs )* *( Other versions might work, but this is not tested )*
+
 
 ## The setup
 When you create a new project from within FD/HD it will copy a lot of files to the project folder.
