@@ -1,0 +1,10 @@
+<platform name="UnrealHx" targets="CppiaCompile,BuildUE4Project,RebuildUE4Project,PackageUE4Project,CookUE4Content">
+  <versions>
+	<version value="1.0">
+		<command name="display" value="tools\tasks\BuildTask.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="build" value="tools\tasks\BuildTask.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="run" value="tools\tasks\RunPostBuild.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+		<command name="clean" value="tools\build\UEBuild_Clean.bat $(TargetBuild) $(BuildConfig) $(ProjectName)" /> 
+	</version>
+  </versions>
+</platform>

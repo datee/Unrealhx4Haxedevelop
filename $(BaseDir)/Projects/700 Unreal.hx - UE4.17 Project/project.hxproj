@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="CustomBuild" />
+    <movie input="" />
+    <movie path="project.xml" />
+    <movie fps="0" />
+    <movie width="0" />
+    <movie height="0" />
+    <movie version="0" />
+    <movie minorVersion="0" />
+    <movie platform="UnrealHx" />
+    <movie background="#000000" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="Scripts" />
+    <class path="Static" />
+    <class path="..\Plugins\UnrealHx\Haxe\Externs\Common" />
+    <class path="..\Plugins\UnrealHx\Haxe\Externs\UE4.17" />
+    <class path="..\Plugins\UnrealHx\Haxe\Static" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="" />
+    <option flashStrict="False" />
+    <option noInlineOnDebug="False" />
+    <option mainClass="Main" />
+    <option enabledebug="False" />
+    <option additional="-D BUILDTOOL_VERSION_LEVEL=5" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <!-- example: <library name="..." /> -->
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <!-- example: <compile path="..." /> -->
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="null" />
+    <hidden path="gen-build-script.hxml" />
+    <hidden path="export_classes.info" />
+    <hidden path="gen-build-static.hxml" />
+    <hidden path="gen-compl-script.hxml" />
+    <hidden path="gen-compl-static.hxml" />
+    <hidden path="Generated" />
+    <hidden path="Externs" />
+    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\Common" />
+    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\UE4.16" />
+    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\UE4.17" />
+    <hidden path="..\Plugins\UnrealHx\Haxe\Static" />
+    <hidden path="obj" />
+    <hidden path=".vs" />
+    <hidden path="Intermediate" />
+    <hidden path="Plugins" />
+    <hidden path="Njo.sln" />
+    <hidden path="RunFirstSetup.bat" />
+    <hidden path="haxe\arguments.hxml" />
+    <hidden path="haxe\export_classes.info" />
+    <hidden path="haxe\gen-build-script.hxml" />
+    <hidden path="haxe\gen-build-static.hxml" />
+    <hidden path="haxe\gen-compl-script.hxml" />
+    <hidden path="haxe\gen-compl-static.hxml" />
+    <hidden path="tools\tasks" />
+    <hidden path="haxe\Generated" />
+    <hidden path="haxe\Externs" />
+    <hidden path="Binaries" />
+    <hidden path="setup" />
+    <hidden path="noINIT" />
+    <hidden path="Saved" />
+    <hidden path="Build" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand>tools\tasks\BuildTask.bat $(TargetBuild) $(BuildConfig) $(ProjectName)</preBuildCommand>
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Custom" />
+    <option testMovieCommand="tools\tasks\RunPostBuild.bat" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

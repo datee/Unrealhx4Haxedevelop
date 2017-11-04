@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"EngineVersion": "1739476",
+	"PackageFileUE4Version": "276",
+	"PackageFileLicenseeUE4Version": "0",
+	"Modules": [
+		{
+			"Name": "$(ProjectName)",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UnrealHx",
+			"Enabled": true
+		}
+	],
+	"EngineAssociation": "4.17"
+}
