@@ -6,11 +6,11 @@ This is a **automated** project template and tool/setup for Unreal.hx in Flashde
 You can code in Haxe instead of c++ and work with Flashdevelop / Haxedevelop instead of using Visual Studio.
 
 > **You can:**
-- Create new Haxe/Unreal.hx enabled UE4 projects without opening the UE4 launcher and/or manually setting up the plugin/tools.
-- Build UE4 projects
-- Rebuild UE4 projects
-- Quickcompile with Unreal.hx Cppia ( Read about it [**here**](https://github.com/proletariatgames/unreal.hx/wiki/Faster-compiler-iteration-with-cppia) )
-- Package UE4 projects for release/shipping, and cook UE4 content
+>- Create new Haxe/Unreal.hx enabled UE4 projects without opening the UE4 launcher and/or manually setting up the plugin/tools.
+>- Build UE4 projects
+>- Rebuild UE4 projects
+>- Quickcompile with Unreal.hx Cppia ( Read about it [**here**](https://github.com/proletariatgames/unreal.hx/wiki/Faster-compiler-iteration-with-cppia) )
+>- Package UE4 projects for release/shipping, and cook UE4 content
  
 ## What is Unreal.hx?
 Unreal.hx is an amazing plugin for Unreal Engine 4 that allows you to write code in the [Haxe](https://haxe.org) programming language. It is written by [Proletariatgames](http://proletariat.com/).
