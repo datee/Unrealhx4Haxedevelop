@@ -5,6 +5,7 @@ This is a **automated** project template and tool/setup for Unreal.hx in Flashde
 ## What can i do?
 You can code in Haxe instead of c++ and work with Flashdevelop / Haxedevelop instead of using Visual Studio.
 
+
 > **You can:**
 >- Create new Haxe/Unreal.hx enabled UE4 projects without opening the UE4 launcher and/or manually setting up the plugin/tools.
 >- Build UE4 projects
@@ -17,12 +18,14 @@ Unreal.hx is an amazing plugin for Unreal Engine 4 that allows you to write code
 If you are not familiar with it, please read more here : [https://github.com/proletariatgames/unreal.hx](https://github.com/proletariatgames/unreal.hx). 
 Also, read the [**Unreal.hx Wiki!!**](https://github.com/proletariatgames/unreal.hx/wiki)
 
-Haxe is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, a complete cross-platform standard library and ways to access each platform's native capabilities. See [www.haxe.org](https://haxe.org)
+And if you are unfamiliar with Haxe : It is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, a complete cross-platform standard library and ways to access each platform's native capabilities. See [www.haxe.org](https://haxe.org)
+
 
 ## What is required?
 Unrealhx4Flashdevelop is a complete and tested setup for Unreal.hx and Haxe with Unreal Engine 4. It **should** work straight **out of the box.**
 
 > **What you need:**
+- Flashdevelop or Haxedevelop 5.x
 - Unreal Engine 4.16 / 4.17 - *(Only 4.17 template exits for now)*
 - Visual Studio 2015 - Only the c++ compiler *(2017 might work, but this is not tested)*
 - Haxe 3.4.3 / 3.4.4
