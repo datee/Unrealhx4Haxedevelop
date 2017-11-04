@@ -57,5 +57,7 @@ In your project root you will have a folder called "haxe". Within this you will 
 
 **Scripts** : In this folder you can put all the Haxe classes you want to compile using Unreal.hx Cppia. This means it will compile superfast and dynamicly reload while the UE4 Editor is open. This makes for a very speedy workflow and iterations. 
 
-A note about Cppia scripts: They can extend and use Static code, but NOT the other way around. Also; due to an issue with Hxcpp you cannot call "super()" from a cppia class that extends a static cod, it will crash. Also : When packaging a UE4 project you have to move all your code from "Scripts" to "Static". This is because Cppia does not work in packaged projects, it is for fast code iterations only.
+A note about Cppia scripts: They can extend and use Static code, but NOT the other way around. Also; due to an issue with Hxcpp you cannot call "super()" from a cppia class that extends a static cod, it will crash. 
+
+**Also : When packaging a UE4 project you have to move all your code from "Scripts" to "Static". This is because Cppia does not work in packaged projects, it is for fast code iterations only.**
 
