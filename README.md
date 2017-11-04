@@ -10,8 +10,9 @@ To install, just doubleclick it or drag/drop into FD/HD.
 ## What can i do with this template?
 You can code in Haxe instead of c++ and work with Flashdevelop / Haxedevelop instead of using Visual Studio.
 
-> **You can:**
+> **Workflow:**
 >- Create new Haxe/Unreal.hx enabled UE4 projects without opening the UE4 launcher and/or manually setting up the plugin/tools.
+>- Code in Haxe
 >- Build UE4 projects
 >- Rebuild UE4 projects
 >- Quickcompile with Unreal.hx Cppia ( Read about it [**here**](https://github.com/proletariatgames/unreal.hx/wiki/Faster-compiler-iteration-with-cppia) )
@@ -48,3 +49,15 @@ When you create a new project from within FD/HD it will copy a lot of files to t
 ## Some things to know :
 Even though Unreal.hx enables you to code in Haxe, you still NEED to know and understand how Unreal Engine 4 works. This is because the API and functions are still the same as in C++.
 If you are unfamiliar with the Unreal Engine 4 API and workflow there is a lot of information available from Epic Games here : **[Unreal Engine 4 Documentation](https://docs.unrealengine.com/latest/INT/)**
+
+## Working with Unreal.hx
+In your project root you will have a folder called "haxe". Within this you will find two folders; **Static** and **Scripts**.
+
+**Static**
+This is your "normal" Haxe code that will build with the normal "Build UE4 Project" option. This code is staticly compiled to c++ and is available after you compile and launch the editor, or the Editor hotloads the c++ output.
+
+**Scripts**
+In this folder you can put all the Haxe classes you want to compile using Unreal.hx Cppia. This means it will compile superfast and dynamicly reload while the UE4 Editor is open. This makes for a very speedy workflow and iterations. 
+
+A note about Cppia scripts: They can extend and use Static code, but NOT the other way around. Also; due to an issue with Hxcpp you cannot call "super()" from a cppia class that extends a static code. It will crash.
+
