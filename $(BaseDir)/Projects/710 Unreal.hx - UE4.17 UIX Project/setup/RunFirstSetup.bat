@@ -8,6 +8,9 @@ call tools\tasks\BuildUtils.bat
 :: Unzip Unreal.hx plugin ////////////////////////////////////////////////////////////////
 
 @setup\7za.exe x -oPlugins -y setup\Unrealhx.zip
+cd Plugins
+ren Unreal.hx UnrealHx
+cd ..
 
 :: =======================================================================================
 :: Unzip Extra externs ///////////////////////////////////////////////////////////////////
