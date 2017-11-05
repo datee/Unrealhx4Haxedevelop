@@ -62,6 +62,7 @@
     <hidden path="Intermediate" />
     <hidden path="Plugins" />
     <hidden path="Njo.sln" />
+    <hidden path="tools\tasks" />
     <hidden path="RunFirstSetup.bat" />
     <hidden path="haxe\arguments.hxml" />
     <hidden path="haxe\export_classes.info" />
@@ -69,9 +70,16 @@
     <hidden path="haxe\gen-build-static.hxml" />
     <hidden path="haxe\gen-compl-script.hxml" />
     <hidden path="haxe\gen-compl-static.hxml" />
-    <hidden path="tools\tasks" />
     <hidden path="haxe\Generated" />
     <hidden path="haxe\Externs" />
+    <hidden path="Haxe\Externs" />
+    <hidden path="Haxe\Generated" />
+    <hidden path="Haxe\arguments.hxml" />
+    <hidden path="Haxe\export_classes.info" />
+    <hidden path="Haxe\gen-build-script.hxml" />
+    <hidden path="Haxe\gen-build-static.hxml" />
+    <hidden path="Haxe\gen-compl-script.hxml" />
+    <hidden path="Haxe\gen-compl-static.hxml" />
     <hidden path="Binaries" />
     <hidden path="setup" />
     <hidden path="noINIT" />
