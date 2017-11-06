@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
-	"EngineVersion": "1739476",
-	"PackageFileUE4Version": "276",
-	"PackageFileLicenseeUE4Version": "0",
+	"EngineAssociation": "4.17",
+	"Category": "",
+	"Description": "",
 	"Modules": [
 		{
 			"Name": "$(ProjectName)",
@@ -15,6 +15,5 @@
 			"Name": "UnrealHx",
 			"Enabled": true
 		}
-	],
-	"EngineAssociation": "4.17"
+	]
 }
