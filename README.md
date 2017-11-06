@@ -4,7 +4,7 @@ This is a **automated** project template and tool/setup for Unreal.hx in Flashde
 
 Please read the instructions!
 
-![alt text](https://github.com/datee/Unrealhx4Haxedevelop/blob/master/screenshot.jpg "Unrealhx4Haxedevelop")
+![](Screenshot.jpg?raw=true)
 
 ## Install :
 Download the .fdz file from here:
