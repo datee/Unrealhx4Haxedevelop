@@ -2,6 +2,10 @@
 
 This is a **automated** project template and tool/setup for Unreal.hx in Flashdevelop/Haxedevelop. With this you are able to code in Haxe, and create Unreal Engine 4 projects in Flashdevelop/Haxedevelop without using c++ code or Visual Studio.
 
+Please read the instructions!
+
+![alt text](https://github.com/datee/Unrealhx4Haxedevelop/blob/master/screenshot.jpg "Unrealhx4Haxedevelop")
+
 ## Install :
 Download the .fdz file from here:
 [Unrealhx-template.fdz](https://github.com/datee/Unrealhx4Haxedevelop/raw/master/Unrealhx-template.fdz).

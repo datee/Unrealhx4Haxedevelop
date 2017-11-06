@@ -15,11 +15,11 @@
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="Scripts" />
-    <class path="Static" />
-    <class path="..\Plugins\UnrealHx\Haxe\Externs\Common" />
-    <class path="..\Plugins\UnrealHx\Haxe\Externs\UE4.17" />
-    <class path="..\Plugins\UnrealHx\Haxe\Static" />
+    <class path="Haxe/Scripts" />
+    <class path="Haxe/Static" />
+    <class path="Plugins\UnrealHx\Haxe\Externs\Common" />
+    <class path="Plugins\UnrealHx\Haxe\Externs\UE4.17" />
+    <class path="Plugins\UnrealHx\Haxe\Static" />
     <class path="C:\dev\UnrealHx\Lib\shared\haxe\Scripts" />
     <class path="C:\dev\UnrealHx\Lib\shared\haxe\Static" />
     <class path="C:\dev\UnrealHx\Lib\shared\haxe\Common" />
@@ -53,10 +53,10 @@
     <hidden path="gen-compl-static.hxml" />
     <hidden path="Generated" />
     <hidden path="Externs" />
-    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\Common" />
-    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\UE4.16" />
-    <hidden path="..\Plugins\UnrealHx\Haxe\Externs\UE4.17" />
-    <hidden path="..\Plugins\UnrealHx\Haxe\Static" />
+    <hidden path="Plugins\UnrealHx\Haxe\Externs\Common" />
+    <hidden path="Plugins\UnrealHx\Haxe\Externs\UE4.16" />
+    <hidden path="Plugins\UnrealHx\Haxe\Externs\UE4.17" />
+    <hidden path="Plugins\UnrealHx\Haxe\Static" />
     <hidden path="obj" />
     <hidden path=".vs" />
     <hidden path="Intermediate" />
