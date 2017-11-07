@@ -10,6 +10,8 @@ This is an **automated** project template and tool/setup for Unreal.hx in Flashd
 Download the .fdz file from here:
 [Unrealhx-template.fdz](https://github.com/datee/Unrealhx4Haxedevelop/raw/master/Unrealhx-template.fdz).
 To install, just doubleclick it or drag/drop into FD/HD.
+**Windows Only.**
+
 
 ## What can i do?
 This setup gives you a basic workflow for coding in Haxe instead of c++ and working with Flashdevelop/Haxedevelop instead of using Visual Studio.
@@ -38,7 +40,7 @@ Unrealhx4Haxedevelop is a complete and tested setup for Unreal.hx and Haxe with 
 - Unreal Engine 4.16 / 4.17 - *(Only 4.17 template exits for now)*
 - Visual Studio 2015 - (Uses the C++ compiler) *(2017 might work, but this is not tested)*
 - Haxe 3.4.3 / 3.4.4 - [Download here](https://haxe.org/download/)
-- Hxcpp 3.4.188 - *( haxelib install hxcpp )* *( Other versions might work, but this is not tested )*
+- Hxcpp 3.4.188 / 3.4.64 - *( haxelib install hxcpp )* *( Other versions might work, but this is not tested )*
 - Hxcs 3.4.0 - *( haxelib install hxcs )* *( Other versions might work, but this is not tested )*
 
 
