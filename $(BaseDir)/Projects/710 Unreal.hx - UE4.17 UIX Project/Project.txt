@@ -1,1 +1,0 @@
-A Haxe UE4.17 Unreal.hx project - [ Run the setup after project is created! ]
