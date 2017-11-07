@@ -6,15 +6,13 @@ This is an **automated** project template and tool/setup for Unreal.hx in Flashd
 
 ![](Screenshot.jpg?raw=true)
 
-## Install :
+## Install (Windows only) :
 Download the .fdz file from here:
 [Unrealhx-template.fdz](https://github.com/datee/Unrealhx4Haxedevelop/raw/master/Unrealhx-template.fdz).
 To install, just doubleclick it or drag/drop into FD/HD.
 
-**Windows Only.**
 
-
-## What can i do from this setup?
+## What can i do with this setup?
 This setup gives you a basic workflow for coding in Haxe instead of c++ and working with Flashdevelop/Haxedevelop instead of using Visual Studio.
 
 >- Create new Haxe/Unreal.hx enabled UE4 projects very easy!
