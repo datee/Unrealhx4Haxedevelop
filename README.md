@@ -31,7 +31,7 @@ And if you are unfamiliar with Haxe : It is an open source toolkit based on a mo
 
 
 ## What is required?
-Unrealhx4Haxedevelop is a complete and tested setup for Unreal.hx and Haxe with Unreal Engine 4. It **should** work straight **out of the box.** HOWEVER; this is in early testing to things might not work for you. If you run into problems with the project template or setup, create an issue about this. For other issues related to Unreal.hx, see [Unreal.hx issues](https://github.com/proletariatgames/unreal.hx/issues)
+Unrealhx4Haxedevelop is a complete and tested setup for Unreal.hx and Haxe with Unreal Engine 4. It **should** work straight **out of the box.** HOWEVER; as this is in early testing some things might not work for you. If you run into problems with the project template or setup, create an issue about this. For other issues related to Unreal.hx, see [Unreal.hx issues](https://github.com/proletariatgames/unreal.hx/issues)
 
 **What you need to have installed:**
 - [Flashdevelop 5.xx](http://www.flashdevelop.org/) or [Haxedevelop 5.xx](http://haxedevelop.org/)
