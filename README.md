@@ -17,7 +17,7 @@ To install, just doubleclick it or drag/drop into FD/HD.
 ## What can i do?
 This setup gives you a basic workflow for coding in Haxe instead of c++ and working with Flashdevelop/Haxedevelop instead of using Visual Studio.
 
->- Create new Haxe/Unreal.hx enabled UE4 projects with one click!
+>- Create new Haxe/Unreal.hx enabled UE4 projects very easy!
 >- Automatic setup of plugin/tools.
 >- Code in Haxe
 >- Build UE4 projects
